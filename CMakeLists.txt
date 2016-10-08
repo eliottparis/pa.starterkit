@@ -5,7 +5,7 @@ set(CMAKE_MACOSX_RPATH Off)
 set(CMAKE_OSX_DEPLOYMENT_TARGET 10.7)
 set(CMAKE_OSX_ARCHITECTURES "i386;x86_64")
 
-project(pa.starterkit)
+project(StarterKit)
 
 include(scripts/utilities.cmake)
 
