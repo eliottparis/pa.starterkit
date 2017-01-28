@@ -1,16 +1,25 @@
-language:
-- objective-c
-- c++
+language: c++
+dist: trusty
+sudo: required
 
-compiler:
-- clang
+notifications:
+  email: false
 
-sudo: false
-os: osx
-osx_image: xcode7.3
+matrix:
+  include:
+  - os: linux
+    compiler: g++
+    env: COMPILER=g++-4.9
+
+  - os: osx
+    osx_image: xcode7.3
 
 script:
-- mkdir build
-- cd build
-- cmake -G Xcode ..
-- cmake --build . --config Release
+  - mkdir build
+  - cd build
+  - cmake ..
+  - cmake --build . --config Release
+  - cd source/projects
+  - ./helloworld_c/helloworld_c
+  - ./helloworld_cpp/helloworld_cpp
+  - cd ../../../
