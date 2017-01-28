@@ -1,6 +1,6 @@
 # StarterKit
 
-Kit de démarrage pour le [cours de programmation en C/C++](https://github.com/paccpp/paccpp)
+Kit de démarrage pour le cours de programmation en C/C++ ([semestre 1](https://github.com/paccpp/paccpp) | [semestre 2](https://github.com/paccpp/paccpp2))
 
 Ce répertoire contient:
 - Un script CMake permettant de générer des projets.
