@@ -4,7 +4,9 @@ Kit de démarrage pour le [cours de programmation en C/C++](https://github.com/p
 
 Ce répertoire contient:
 - Un script CMake permettant de générer des projets.
-- Un projet de départ nommé "[helloworld](source/projects/helloworld)".
+- Deux projets de départ :
+  - "[helloworld_c](source/projects/helloworld_c)".
+  - "[helloworld_cpp](source/projects/helloworld_cpp)".
 
 ### Installation
 
